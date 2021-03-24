@@ -8,7 +8,7 @@ Increments 			:= 10 ; < lower for a more granular change, higher for larger jump
 CurrentBrightness 	:= GetCurrentBrightNess()
 
 ;txt
-`::Send console.log("tst");
++`::Send console.log("tst");
 
 ;Volume
 NumpadSub::Send {Volume_Up}
