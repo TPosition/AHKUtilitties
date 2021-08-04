@@ -10,6 +10,9 @@ CurrentBrightness 	:= GetCurrentBrightNess()
 ;txt
 !NumpadDot::Send console.log("tst");
 
+;always on top
+!w::  Winset, Alwaysontop, , A
+
 ;Volume
 NumpadSub::Send {Volume_Up}
 NumpadAdd::Send {Volume_Down}
