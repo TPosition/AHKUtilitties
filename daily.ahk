@@ -51,8 +51,8 @@ GetCurrentBrightNess()
 
 #SingleInstance force
 
-Insert::hk(1,0)              ; Disable all keyboard keys
-Delete::hk(0,0)              ; Enable all keyboard keys and mouse buttons
+PgUp::hk(1,0)              ; Disable all keyboard keys
+PgDn::hk(0,0)              ; Enable all keyboard keys and mouse buttons
 ;!F3::hk(1,1,"KEYBOARD MOUSE AND SCREEN LOCKED!  -  ALT+F2 TO UNLOCK",,,1,"teal")   ; Disable keyboard mouse and screen
 
 
