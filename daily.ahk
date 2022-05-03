@@ -14,8 +14,8 @@ CurrentBrightness 	:= GetCurrentBrightNess()
 !w::  Winset, Alwaysontop, , A
 
 ;Volume
-NumpadSub::Send {Volume_Up}
-NumpadAdd::Send {Volume_Down}
+Alt & NumpadSub::Send {Volume_Up}
+Alt & NumpadAdd::Send {Volume_Down}
 
 ; toggle press
 RShift & d::
@@ -36,8 +36,8 @@ return
 
 
 ;brightness
-NumpadDiv::ChangeBrightness( CurrentBrightness -= Increments ) ; decrease brightness
-NumpadMult::ChangeBrightness( CurrentBrightness += Increments ) ; increase brightness
+Alt & NumpadDiv::ChangeBrightness( CurrentBrightness -= Increments ) ; decrease brightness
+Alt & NumpadMult::ChangeBrightness( CurrentBrightness += Increments ) ; increase brightness
 
 
 ; Functions
